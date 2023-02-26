@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function() {
       const speed = document.getElementById('speed').value;      
   		const synth = window.speechSynthesis;
       const utterance = new SpeechSynthesisUtterance(text);
-      utterance.lang = 'en-US';
+      utterance.lang = 'en-GB';
       utterance.rate = parseInt(speed);
       synth.speak(utterance);
     });
